@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Admin.aspx" />
     <Content Include="Admin.html" />
-    <Content Include="style.css" />
+    <Content Include="styles.css" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="WebForm2.aspx" />

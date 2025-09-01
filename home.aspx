@@ -13,7 +13,7 @@
 
   <header id="top" role="banner">
     <nav aria-label="Primary">
-      <a href="#top" class="logo" aria-label="Home">DS</a>
+      <a href="#top" class="logo" aria-label="Home">DAUD</a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <ul id="site-nav" class="nav-list">
         <li><a href="#about">About</a></li>
@@ -21,8 +21,9 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+        
     </nav>
-
+      <img src="images/daud.jpg" alt="Daud Sharif" class="profile-pic" />
     <section class="hero" aria-label="Intro">
       <h1>Hi, I'm <span class="accent">Mohammad Abu Daud Sharif</span>.</h1>
       <p class="tagline">Undergraduate CSE student and Competitive Programmer.</p>
