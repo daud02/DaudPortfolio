@@ -1,0 +1,21 @@
+﻿.add-achievement {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+    .add-achievement h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .add-achievement .form-group {
+        margin-bottom: 20px;
+    }
+
+    .add-achievement .status-label {
+        display: block;
+        margin-top: 15px;
+        color: green;
+        font-weight: bold;
+    }

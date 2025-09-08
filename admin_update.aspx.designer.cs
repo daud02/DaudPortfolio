@@ -11,79 +11,79 @@ namespace DaudPortfolio
 {
 
 
-    public partial class Home
+    public partial class WebForm3
     {
 
         /// <summary>
-        /// rptAchievements control.
+        /// achievementForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptAchievements;
+        protected global::System.Web.UI.HtmlControls.HtmlForm achievementForm;
 
         /// <summary>
-        /// Repeatskills control.
+        /// txtAchTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeatskills;
+        protected global::System.Web.UI.WebControls.TextBox txtAchTitle;
 
         /// <summary>
-        /// contactForm control.
+        /// txtAchDescription control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm contactForm;
+        protected global::System.Web.UI.WebControls.TextBox txtAchDescription;
 
         /// <summary>
-        /// txtName control.
+        /// txtAchDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.TextBox txtAchDate;
 
         /// <summary>
-        /// txtEmail control.
+        /// ddlAchType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.DropDownList ddlAchType;
 
         /// <summary>
-        /// txtMessage control.
+        /// txtAchTeamId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMessage;
+        protected global::System.Web.UI.WebControls.TextBox txtAchTeamId;
 
         /// <summary>
-        /// btnSubmit control.
+        /// btnAddAchievement control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Button btnAddAchievement;
 
         /// <summary>
-        /// lblStatus control.
+        /// lblAchMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblStatus;
+        protected global::System.Web.UI.WebControls.Label lblAchMessage;
     }
 }

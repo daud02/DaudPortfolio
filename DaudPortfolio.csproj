@@ -67,12 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="add_achievements.css" />
     <Content Include="Admin.aspx" />
     <Content Include="Admin.html" />
+    <Content Include="script.js" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
+    <Content Include="insert_data.aspx" />
+    <Content Include="show_data.aspx" />
+    <Content Include="AdminDashboard.aspx" />
+    <Content Include="messages.aspx" />
     <Content Include="WebForm2.aspx" />
+    <Content Include="admin_update.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.aspx.cs">
@@ -90,12 +97,47 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="insert_data.aspx.cs">
+      <DependentUpon>insert_data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insert_data.aspx.designer.cs">
+      <DependentUpon>insert_data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_data.aspx.cs">
+      <DependentUpon>show_data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_data.aspx.designer.cs">
+      <DependentUpon>show_data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.aspx.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.aspx.designer.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="messages.aspx.cs">
+      <DependentUpon>messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="messages.aspx.designer.cs">
+      <DependentUpon>messages.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_update.aspx.cs">
+      <DependentUpon>admin_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_update.aspx.designer.cs">
+      <DependentUpon>admin_update.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
